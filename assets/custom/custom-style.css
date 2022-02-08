@@ -1,0 +1,804 @@
+
+/* Start Public */
+    body {
+        position: relative;
+        min-height: 100vh;
+        padding: 90px 0;
+    }
+    body > section {
+        padding-top: 40px;
+        padding-bottom: 40px;
+    }
+
+    .py-0 {
+        padding-top: 0;
+        padding-bottom: 0;
+    }
+    .my-0 {
+        margin-top: 0;
+        margin-bottom: 0;
+    }
+
+    header {
+        position: fixed;
+        width: 100%;
+        top: 0;
+        z-index: 1000;
+    }
+
+    .no-fount-data {
+        position: relative;
+        text-align: center !important;
+    }
+
+    .remove-padding-margin {
+        padding-top: 0 !important;
+        padding-bottom: 0 !important;
+        margin-top: 0 !important;
+        margin-bottom: 0 !important;
+    }
+
+    .features .feature-wrap:nth-last-child(),
+    #services .edition .edition-icon {
+        margin-bottom: 0
+    }
+
+    footer {
+        position: absolute;
+        bottom: 0;
+        width: 100%
+    }
+
+    #recent-works {
+        margin-bottom: 0;
+        padding-bottom: 45px;
+    }
+
+    .services-wrap h3 {
+        margin: 10px;
+    }
+    .navbar-brand img{
+        position: relative;
+        top: -13px;
+        width: 73px;
+    }
+    .chosen-single {
+        height: 34px !important;
+        line-height: 28px !important;
+    }
+    .chosen-container .chosen-results li.active-result {
+        color: #000;
+    }
+
+
+/* End Public */
+
+
+.text-success span.display-ayah {
+    color: #444 !important;
+}
+
+/*************************************************************************************************************************************************************/
+/****************************************************************************** START HOME PAGE **************************************************************/
+/*************************************************************************************************************************************************************/
+
+/* Start Home Providers Section */
+    #feature .features > div {
+        float: left;
+    }
+
+    .features .feature-wrap.provider {
+        padding: 25px;
+        background: #fff;
+        box-shadow: 0 7px 5px 0px #aeaeae;
+        border-radius: 10px;
+        height: 195px;
+        overflow: hidden;
+    }
+
+    .features .feature-wrap.provider i {
+        margin: 20px 0;
+        margin-right: 0;
+        float: left;
+    }
+
+    .features .feature-wrap.provider h2 {
+        margin-top: 30px;
+        width: calc(100% - 105px);
+        text-align: left;
+        float: right;
+    }
+/* End Home Providers Section */
+
+
+
+/* Start Home Tafsir Carousel */
+    #tafsir-carousel .carousel {
+        height:inherit
+        background: #2a2a2a73
+        position: relative
+        overflow: hidden
+        background-origin: content-box
+        background-position: bottom;
+        background-size: cover;
+    }
+
+    #tafsir-carousel .carousel-inner {
+        margin:auto;
+        color:#fff;
+        font-weight:bold;
+        font-size:24px;
+        position:absolute;
+        top: 0%;
+        bottom:0%;
+        transform: translate(-50%);
+        left: 50%;
+        box-shadow: 0 0 19px #000;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width:80%;
+        background: #00000073
+    }
+
+    #tafsir-carousel .tafsir-item {
+        padding: 25px;
+        line-height: 40px;
+        position: relative;
+        width:100%
+    }
+
+    #tafsir-carousel .tafsir-item p {
+        margin-bottom: 20px;
+        font-size: 26px;
+    }
+
+    #tafsir-carousel .tafsir-item .tafsir-text {
+        color:#ccc;
+        font-weight: 400;
+        font-size: 19px;
+        display: block;
+        padding: 10px 0;
+        border: 1px solid #00ff005e;
+        box-shadow: 0 0px 7px #00ff005e;
+        border-radius: 7px;
+    }
+
+    #tafsir-carousel .tafsir-item .tafsir-info {
+        font-size: 15px;
+        margin-top: 15px;
+        color: #818181;
+        display: block;
+        text-align: {{ app()->getLocale() == 'ar' ? 'right' : 'left' }}"
+    }
+/* End Home Tafsir Carousel */
+
+
+
+/* Start Home Editions Section */
+    #services {
+        background-repeat: no-repeat !important;
+        background-size: cover !important;
+        background-position: center !important;
+    }
+
+    #services .center {
+        padding-bottom: 20px;
+    }
+
+    #services .edition {
+        height: 190px;
+    }
+
+    .services-wrap {
+        padding: 25px 10px;
+    }
+
+    #services .edition .edition-icon {
+        margin-right: 0;
+        float: left;
+        max-width: 60px;
+    }
+
+    #services .edition .edition-icon i {
+        font-size: 65px
+    }
+
+    #services .edition .media-body {
+        width: calc(100% - 60px);
+        text-align: left;
+        float: right;
+    }
+
+    #services .edition .edition-icon img {
+        max-width: 81px;
+    }
+/* End Home Editions Section */
+
+
+
+/* End Home Statistics Section */
+
+    #partner {
+        padding-bottom: 0;
+    }
+
+    #partner .partners {
+        width: 100%;
+        height: 20%;
+        text-align: left;
+        text-align: center;
+        padding: 5% 0 0 0;
+        margin-bottom: 0px !important;
+    }
+
+    #partner .partners .badge-light{
+        background: transparent;
+        color: #d4d4d4;
+        font-size: 18px;
+        font-weight: 600;
+    }
+
+    #partner .partners .widget {
+        margin-bottom: 20px;
+    }
+
+    #partner .badge  {
+        width: 18%;
+        text-align: center;
+        left: 0 !important;
+    }
+
+/* End Home Statistics Section */
+
+/*************************************************************************************************************************************************************/
+/****************************************************************************** END HOME PAGE **************************************************************/
+/*************************************************************************************************************************************************************/
+
+
+
+/*************************************************************************************************************************************************************/
+/****************************************************************************** Start Another PAGES **************************************************************/
+/*************************************************************************************************************************************************************/
+    .surahs .surahs-body {
+        position: fixed;
+        left: 0;
+        left: 40%;
+        top: 9%;
+        padding: 0px 20px 20px 20px;
+        background: #fff;
+    }
+
+    .editions .center {
+        padding-bottom: 10px;
+    }
+
+    .editions .search-temp,
+    .providers .search-temp,
+    .surahs .search-temp  {
+        direction: ltr;
+    }
+
+    .editions .blog-item,
+    .surahs .blog-item,
+    .providers .blog-item {
+        box-shadow: 0 0 10px #000;
+        border-radius: 10px;
+        padding: 30px;
+    }
+
+    .providers {
+        padding-bottom: 0; margin-bottom: 0
+    }
+
+    .surahs .blog-item{
+        text-align: center;
+    }
+
+    .display-ayahs {
+        text-align: right;
+    }
+
+    .display-ayahs .blog-item {
+        margin-top: 40px;
+    }
+
+    .display-ayahs .select-filter {
+        direction: ltr;
+        text-align:left;
+    }
+
+    .display-ayahs .blog-content {
+        padding-bottom:15px;
+    }
+    .display-ayahs .blog-content h2 {
+        position: relative;
+    }
+
+    .display-ayahs .order_in_surah {
+        color: #5d5d5d;
+        font-size: 20px;
+        border: 3px solid #313131;
+        padding: 5px;
+        border-radius: 13px;
+        box-shadow: 0px 0 9px #656565;
+        margin: 0 15px;
+        border-top: none;
+        border-bottom: none;
+    }
+
+    .display-ayahs .filter .select-filter label {
+        padding: 0 5px;
+    }
+
+    .display-ayahs .filter {
+        position: fixed;
+        z-index: 100;
+        top: 90px;
+        padding: 10px 20px;
+        background: #dcdcdc;
+        box-shadow: 1px 4px 20px 0px #6d6d6dbf;
+        transition: all .6s ease-in-out;
+        -webkit-transition: all .6s ease-in-out;
+        -moz-transition: all .6s ease-in-out;
+        -ms-transition: all .6s ease-in-out;
+        -o-transition: all .6s ease-in-out;
+    }
+
+    .display-ayahs .filter .toggle_search{
+        position: absolute;
+        bottom: -45px;
+        right: 0;
+        outline: none;
+        z-index: 20;
+        display: none;
+    }
+
+    .display-ayahs .ayah-text {
+        display: block;
+        width: 100%;
+        line-height: 40px;
+        cursor: pointer;
+        font-weight: 600;
+    }
+
+    .display-ayahs .ayah-text .display-ayah {
+        display: block;
+        width: 100%;
+        margin-bottom: 10px;
+        font-size: 1.4vw;
+        text-align: center;
+        padding-top: 5px;
+    }
+
+    .display-ayahs .ayah-text .text, .display-ayahs .ayah-text .order_in_surah {
+        display: inline;
+        width: 100%;
+        line-height: 40px;
+        cursor: pointer;
+        font-weight: 400;
+        font-size: 1.3vw;
+    }
+
+    .display-ayahs .ayah-text .order_in_surah {
+        display: inline;
+    }
+
+    .display-ayahs .play-audio {
+        position: absolute;
+        top: -20px;
+        padding: 0;
+        border-radius: 50%;
+        outline: none;
+        left: 0;
+    }
+
+    #play-audio {
+        opacity: 0;
+        height: 0;
+    }
+
+/*************************************************************************************************************************************************************/
+/****************************************************************************** END Another PAGES **************************************************************/
+/*************************************************************************************************************************************************************/
+
+
+.features .feature-wrap.categories {
+    padding: 25px;
+    box-shadow: 0 7px 5px 0px #aeaeae;
+    border-radius: 10px;
+    background-position: center !important;
+    background-repeat: no-repeat !important;
+    background-size: cover !important;
+}
+
+.features .feature-wrap.categories a {
+    color: #2809ff;
+}
+
+.features .feature-wrap.categories a:hover {
+    color: #fff;
+}
+
+#blog.azkars {
+    padding-top: 30px;
+}
+
+#blog.azkars .center span {
+    font-size: 17px;
+    font-weight: bold;
+    font-family: 'Open Sans';
+}
+
+#blog.azkars .azkars-body .panel {
+    border: 1px solid #acacac;
+}
+
+
+
+#blog.azkars .azkars-body .panel .panel-body p{
+    text-align: right;
+    font-size: 17px;
+    line-height: 35px;
+}
+
+
+#feature.azkar {
+    background: #ccc
+}
+
+a.azkar_name {
+    font-size: 23px;
+    text-align: left;
+    padding: 25px;
+    font-weight: bold;
+    color: #19142f;
+    display: block;
+    width: 100%;
+}
+
+
+#load-ayah .blog-content, #published .blog-content {
+    padding: 25px;
+    margin-bottom: 20px;
+    background: #e1e1e1;
+}
+
+
+
+
+
+.published-ayah .blog-item {
+    padding: 50px 20px;
+    background: #efefef;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    box-shadow: 0 0px 9px 1px #ffffffbf;
+    margin-top: 35px;
+}
+
+.published-ayah .published-option .options {
+    margin-top: 10px;
+}
+
+.published-ayah .published-option .options .click-play-audio {
+    float: left;
+}
+
+.published-ayah .published-option .options .show-tafsir {
+    float: right;
+}
+
+.published-ayah .display-tafsir {
+    display: block;
+    margin-top: 20px;
+    font-size: 20px;
+    color: #606060;
+    font-weight: 400;
+    line-height: 30px;
+}
+.published-ayah .play-audio {
+    position: absolute;
+    border-radius: 11px;
+    margin-top: -10px;
+    font-size: 16px;
+    outline: none;
+    top: 7vh;
+}
+
+.published-ayah .ayah-info {
+    margin-top: 20px
+}
+
+.published-ayah .ayah-info span {
+    font-size: 16px;
+    margin-top: 15px;
+    color: #818181;
+}
+
+.published-ayah .related .related-item a {
+    width: 100%;
+    display: block;
+    overflow: hidden;
+    max-height: 23px;
+}
+
+
+.display-ayahs .blog-item {
+    margin-top: 0px;
+}
+
+
+@media only screen and (max-width: 1315px) {
+    .filter {
+        left: 0;
+        width: 100%;
+    }
+
+    .display-ayahs .blog-item {
+        padding-top: 30px;
+    }
+}
+
+@media only screen and (min-width: 1315px) {
+    .filter {
+        width: 1150px;
+    }
+    .select-filter select {
+        width: 62%;
+        display: inline-block;
+    }
+    .select-filter label {
+        width: 35%;
+        display: inline-block;
+    }
+
+    .display-ayahs .blog-item {
+        padding-top: 35px;
+    }
+}
+
+@media only screen and (max-width: 975px) {
+    .filter {
+        left: 0;
+        width: 100%;
+    }
+    .widgs {
+        margin-bottom: 20px !important
+    }
+
+    .display-ayahs .ayah-text .display-ayah {
+        font-size: 2.5vw;
+    }
+
+    .display-ayahs .ayah-text .text, .display-ayahs .ayah-text .order_in_surah {
+        font-size: 2.5vw;
+    }
+
+    .published-ayah .display-tafsir, .published-ayah .text, .published-ayah .show-tafsir, .play-audio {
+        font-size: 2.3vw;
+    }
+
+    .published-ayah .ayah-info span {
+        font-size: 1.8vw;
+    }
+
+    .published-ayah .show-tafsir, .play-audio {
+        top: 1.9vh;
+        font-size: 12px;
+    }
+
+    .display-ayahs .blog-item {
+        margin-top: 85px;
+        padding-top: 30px;
+    }
+
+    .display-ayahs .filter .toggle_search{
+        display: block;
+    }
+}
+
+@media only screen and (max-width: 800px) {
+    .features .feature-wrap{
+        box-shadow: 0px 8px 3px 0px #52525259;
+    }
+
+    .surah-name a, .provider h2, .edition h3, .tafsir-item p, .tafsir-item span{
+        line-height: 25px;
+        font-size: 3.5vw !important;
+    }
+
+    .published-ayah .show-tafsir, .play-audio {
+        top: 3.5vh;
+    }
+
+    .radio-body .radio_title {
+        font-size: 3vw;
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    #footer div {
+        text-align:  center !important;
+    }
+
+    #main-slider .carousel-content{
+        text-align: center
+    }
+
+    .features .feature-wrap{
+        box-shadow: 0px 8px 3px 0px #52525259;
+    }
+
+    #services .edition.services-wrap{
+        box-shadow: 0px 8px  9px 0px #44d5126b;
+    }
+
+    .select-filter {
+        padding: 5px 10px;
+        display: inline-block;
+        float: right;
+        width: 49.33%;
+    }
+
+    .select-filter select {
+        width: 100%;
+        display: block;
+    }
+    .select-filter label {
+        width: 20%;
+        display: inline-block;
+    }
+
+    .display-ayahs .ayah-text, .display-ayahs .ayah-text .order_in_surah{
+        font-size: 3.4vw;
+        padding-top: 0px;
+    }
+    .play-audio img {
+        width: 7vw !important;
+    }
+
+    .published-ayah .display-tafsir, .published-ayah .text, .published-ayah .show-tafsir, .play-audio {
+        font-size: 2.7vw;
+    }
+
+    .published-ayah .ayah-info span {
+        font-size: 2vw;
+    }
+
+    .published-ayah .show-tafsir, .play-audio {
+        top: 1.9vh;
+        font-size: 12px;
+    }
+
+    #main-slider .carousel .item {
+        min-height: 450px;
+    }
+
+    #main-slider .carousel .slide-margin {
+        margin-top: 50px;
+    }
+
+    .display-ayahs .blog-item {
+        margin-top: 15px;
+    }
+    .form-control.chosen {
+        margin-bottom: 10px;
+        text-align: left;
+    }
+
+    #blog.azkars .center h2 {
+        font-size: 4vw;
+    }
+
+    .carousel-inner {
+        height: 535px;
+    }
+}
+
+@media only screen and (max-width: 500px) {
+    .select-filter {
+        padding: 5px 10px;
+        display: block;
+        width: 100%;
+    }
+    .select-filter select {
+        width: 70%;
+        display: inline-block;
+    }
+    .select-filter label {
+        width: 20%;
+        display: inline-block;
+    }
+
+    .display-ayahs .ayah-text .display-ayah {
+        font-size: 4vw;
+    }
+
+    .display-ayahs .ayah-text .text, .display-ayahs .ayah-text .order_in_surah {
+        font-size: 3.5vw;
+    }
+    .published-ayah .blog {
+        padding-top: 0px;
+    }
+
+    .published-ayah .display-tafsir, .published-ayah .text, .published-ayah .show-tafsir, .play-audio {
+        font-size: 3.3vw;
+    }
+
+    .published-ayah .ayah-info span {
+        font-size: 2.3vw;
+    }
+
+    .published-ayah .show-tafsir, .play-audio {
+        top: 3vh;
+    }
+
+    .published-ayah .published-option {
+        margin-bottom: 20px;
+    }
+
+    .radio-body .blog {
+        padding-top: 35px;
+        margin-top: 35px;
+    }
+
+    .radio-body .radio_title {
+        font-size: 4vw;
+    }
+
+    #blog.azkars .center h2.azkar_name {
+        font-size: 5vw;
+    }
+
+    a.azkar_name {
+        font-size: 4vw !important;
+    }
+
+    #partner {
+        padding-bottom: 20px;
+    }
+    .display-ayahs .blog-item {
+        padding-top: 10px;
+    }
+}
+
+@media only screen and (max-width: 320px) {
+    .select-filter select {
+        width: 100%;
+        display: block;
+    }
+    .select-filter label {
+        width: 100%;
+        display: block;
+    }
+
+    .surahs .blog-item .blog-content,
+    .providers .blog-item .blog-content{
+        width: 100%;
+        display: block;
+    }
+
+    .display-ayahs .ayah-text .display-ayah {
+        font-size: 6vw;
+    }
+
+    .display-ayahs .ayah-text .text, .display-ayahs .ayah-text .order_in_surah {
+        font-size: 5.5vw;
+    }
+    .display-ayahs .blog-item {
+        padding-top: 30px;
+    }
+
+    .radio-body .blog {
+        margin-top: 50px;
+    }
+
+    .radio-body .radio_title {
+        font-size: 4vw;
+    }
+
+    #blog.azkars .center h2 {
+        font-size: 6vw;
+    }
+}

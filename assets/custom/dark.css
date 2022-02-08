@@ -1,0 +1,132 @@
+.navbar {
+    background-color: #19142f;
+    box-shadow: 0px 2px 8px 3px #000000ad;
+}
+
+#footer {
+    background-color: #19142f;
+    box-shadow: 0px -2px 8px 3px #000000ad;
+}
+
+body, #feature, #recent-works, #services, #services {
+    box-shadow: 0 0px 5px 0px #aeaeae;
+    background: #1c1635;
+}
+
+.features .feature-wrap.provider, #services .edition {
+    box-shadow: 0 0px 5px 0px #aeaeae;
+    background: #19142f;
+}
+
+.features .feature-wrap small {
+    color: #fff;
+}
+
+.center h2 {
+    color: #fff;
+}
+
+a {
+    color: #eeeeee;
+}
+
+a:hover {
+    color: #197111;
+}
+
+#load-data {
+    box-shadow: 0 0 10px #aeaeae;
+    background-color: #19142f;
+}
+
+.ayah-text span {
+    color: #fff;
+}
+
+.ayah-text span:last-of-type {
+    color: #ccc;
+}
+
+.display-ayahs .filter {
+    background: #110a31;
+    color: #fff;
+    box-shadow: 1px 4px 20px 0px #6b6b6b6b;
+}
+
+#myCarousel.carousel, #recent-works {
+    background: #19142f !important;
+}
+
+.chosen-search a {
+    color: #eee !important;
+}
+
+#blog.azkars .center span {
+    color: #949494;
+}
+
+#blog.azkars .azkars-body .panel {
+    background: #1c16352b;
+    color: #fff;
+}
+
+#blog.azkars .azkars-body .panel, #blog.azkars .azkars-body .panel .panel-footer {
+    border-color: #33256f;
+}
+
+#blog.azkars .azkars-body .panel .panel-footer {
+    background: #19142f;
+}
+
+#blog.azkars .azkars-body .panel .panel-body p{
+    color: #ccc;
+}
+
+.text-muted span {
+    color: #999 !important;
+}
+
+.text-success span {
+    color: #3c763d !important;
+}
+
+.text-success span.display-ayah {
+    color: #fff !important;
+}
+
+#load-ayah .blog-content, #published .blog-content {
+    padding: 25px;
+    margin-bottom: 20px;
+    background: #19142f;
+}
+
+.media-controls,
+.media-controls .media-button,
+.back-button .button-icons,
+.skip-button .button-icons,
+.rewind-button .button-icons,
+.fat-forward-button .button-icons {
+    color: #fff !important;
+}
+
+
+
+
+.published-ayah .blog-item {
+    background: #19142f;
+    border: 1px solid #ccc;
+    box-shadow: 0px 2px 8px 3px #000000ad;
+}
+
+.published-ayah .display-tafsir {
+    color: #c8c8c8;
+}
+
+.published-ayah .ayah-info span {
+    color: #a8a8a8 !important;
+}
+
+.panel-heading {
+    background-color: #19142f !important;
+    color: #ccc !important;
+}

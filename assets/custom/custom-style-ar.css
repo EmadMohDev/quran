@@ -1,0 +1,41 @@
+#tafsir-carousel .tafsir-item .tafsir-info,
+.services .edition .media-body,
+.display-ayahs .select-filter,
+#services .edition .media-body {
+    text-align: right;
+}
+
+
+.features .feature-wrap.provider i,
+.services .edition .edition-icon,
+#services .edition .edition-icon,
+#feature .features > div,
+.related .related-item,
+.providers .floating,
+.navbar-nav li,
+.display-ayahs .select-filter,
+.published-ayah .related .related-item {
+    float: right !important;
+}
+
+.services .edition .media-body,
+.features .feature-wrap.provider h2{
+    float: left;
+    text-align: right;
+}
+
+.editions .search-temp,
+.providers .search-temp,
+.surahs .search-temp,
+.display-ayahs .select-filter  {
+    direction: rtl;
+}
+
+.form-control.chosen {
+    text-align: right;
+}
+
+.display-ayahs .filter .toggle_search{
+    left: 0 !important;
+}
+
